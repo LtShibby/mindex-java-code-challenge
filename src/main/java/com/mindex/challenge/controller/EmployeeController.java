@@ -112,6 +112,7 @@ public class EmployeeController {
         }
         int numberOfReports = employee.getDirectReports().size();
         for (Employee directReport : employee.getDirectReports()) {
+            directReport = employeeService.read(directReport.getEmployeeId());
             numberOfReports += calculateNumberOfReports(directReport);
         }
         return numberOfReports;
