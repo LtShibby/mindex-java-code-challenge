@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+
+# Compiled Java classes
+bin/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Logs
+logs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
