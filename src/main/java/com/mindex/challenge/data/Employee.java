@@ -60,4 +60,18 @@ public class Employee {
     public void setDirectReports(List<Employee> directReports) {
         this.directReports = directReports;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Employee [")
+          .append("employeeId=").append(employeeId).append(",\n")
+          .append("firstName=").append(firstName).append(",\n")
+          .append("lastName=").append(lastName).append(",\n")
+          .append("position=").append(position).append(",\n")
+          .append("department=").append(department).append(",\n")
+          .append("directReports=").append(directReports).append("]");
+    
+        return sb.toString();
+    }
 }
