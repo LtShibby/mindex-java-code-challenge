@@ -32,7 +32,7 @@ public class SwaggerConfig implements WebMvcConfigurer {
                 .title("Employee Management System API")
                 .description("API documentation for the Employee Management System")
                 .version("0.0.1")
-                .contact(new Contact("Matthew Wozniak", "http://www.linkedin,com/in/matthew-wozniak", "matthew.james.wozniak@email.com"))
+                .contact(new Contact("Matthew Wozniak", "http://www.linkedin.com/in/matthew-wozniak", "matthew.james.wozniak@email.com"))
                 .build();
     }
 
